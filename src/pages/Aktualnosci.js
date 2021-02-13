@@ -1,7 +1,14 @@
 import React from "react";
+import Components from "../components";
+
+const { Artykuly } = Components;
 
 const Aktualnosci = () => {
-  return <h1>Aktualnosci</h1>;
+  return (
+    <>
+      <Artykuly />
+    </>
+  );
 };
 
 export default Aktualnosci;
